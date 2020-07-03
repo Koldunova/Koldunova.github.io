@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 body{
-    background-image: linear-gradient(125deg, #FFCCFF,#FF99FF,#FF66FF,#FF33FF,#FF00FF);
+    background-image: linear-gradient(125deg, #ffccff71,#ff99ffc4,#ff66ffab,#ff33ff9f,#ff00ffbd);
     background-size: 1000% 1000%;
     animation: bganimation 15s infinite;
 }
@@ -56,4 +56,14 @@ h1 {
 
   a{
       color:#CC3399;    
+  }
+
+  tr{
+      text-align: center;
+  }
+  
+
+  .git{
+    position: fixed;
+    height: 50px;
   }
