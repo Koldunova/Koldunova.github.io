@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    background-image: linear-gradient(125deg, #FFCCFF,#FF99FF,#FF66FF,#FF33FF,#FF00FF);
+    background-size: 1000% 1000%;
+    animation: bganimation 15s infinite;
+}
+@keyframes bganimation {
+    0%{
+    background-position: 0% 50%;
+    }
+    50%{
+    background-position: 100% 50%;
+    }
+    100%{
+    background-position: 0% 50%;
+    }
+}
+
+.content_layer{
+    margin-left: 15%;
+    margin-right: 15%;
+    background: rgba(0, 0, 0, 0.89);
+    color: #ffffff;
+    font-family: monospace;
+    padding-left:15px;
+    padding-right: 15px;   
+}
+
+h1 {
+    color: #eaeaf9;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .17em solid #CC3399;  
+    white-space: nowrap;  
+    margin: 0 auto;  
+    letter-spacing: .17em;
+    animation:  
+    typing 3.5s steps(30, end),
+    blink-caret .7s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #CC3399 }
+  }
+
+  .round {
+    border-radius: 100px; 
+  }
+
+  a{
+      color:#CC3399;    
+  }
